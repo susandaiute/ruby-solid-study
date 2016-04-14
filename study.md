@@ -219,7 +219,9 @@ material. Instead, digest what you've read and repeat it in your own voice.
 In your own words, explain why good design is important.
 
 ```md
-<!-- your answer here -->
+Good design is important in that it doesn't discount the future.  Good design
+preemptively eliminates time-draining problems that might be encountered later that
+could be just be avoided initially.
 ```
 
 ## Identify Good Design
@@ -228,7 +230,12 @@ List some criteria for well-designed code. Contrast this list with indicators
 of poor design.
 
 ```md
-<!-- your answer here -->
+Well designed code is dry, semantic, often tested, solid, has one responsibility,
+is made up of elements that change at the same rate, and does not depend on things
+that change less often than it does.
+
+Indicators of poor design are overly complex, resistant to change and breaks when
+changes do occur, and is not dry.
 ```
 
 ## Design Heuristics
@@ -237,7 +244,15 @@ Are heuristics the same thing as rules? What are some design heuristics you can
 use to improve the design of your code?
 
 ```md
-<!-- your answer here -->
+In Pirates of the Carribean, Jack Sparrow's crew leaves him behind and as they sail
+away Keira Knightley is all "What about the pirate's code???" (which says that they
+never leave a pirate behind) at which point the beardy first mate says "They're
+really more like guidelines anyway" and they keep on sailing.  My point is, that
+ heuristics are just strongly recommended guidelines that should be followed, but
+ technically you can leave behind Johnny Depp if you really want to.
+ Some useful design heuristics are Sandy Metz's rules which suggest how many lines
+ of code a class or method should be, how many parameters to pass, and how to
+ properly instantiate an object.
 ```
 
 ## Refactorings
@@ -246,5 +261,8 @@ Pick a few design heuristics. Describe some common, named refactorings you can
 use approach a good design.
 
 ```md
-<!-- your answer here -->
+Renaming identifiers can lead to code that is more semantic and readable.  The
+exctracting method takes long, multitasking methods and breaks them up into
+smaller, more semantically named methods.  The Pull Up method takes code that is
+repeated across classes and consolidates it so that it is dry.
 ```
